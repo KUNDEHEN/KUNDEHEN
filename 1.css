@@ -1,0 +1,154 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+
+header {
+    /*background-color: lightblue;*/
+    background-image: url("./学校官网.jpg");
+    background-repeat: no-repeat;
+    width: 1600px;
+    height: 370px;
+}
+
+#shuipingnav {
+    background-color: #08338f;
+    width: 1600px;
+    height: 45px;
+}
+
+#shuipingnav ul {
+    margin-left: 370px;
+    /*border: 1px solid rgb(236, 7, 19);*/
+}
+
+#shuipingnav ul li {
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    list-style: none;
+    float: left;
+    margin: 0 10px;
+    padding: 5px - 10px;
+    /*border: 1px solid rgb(20, 230, 97);*/
+}
+
+#shuipingnav ul li:hover {
+    background-color: #0b92dc;
+}
+
+#shuipingnav ul li:nth-child(2) {
+    background-color: #0b92dc;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+
+a:hover {
+    color: rgba(247, 249, 102);
+}
+
+.main {
+    background-color: rgb(255, 255, 255);
+    width: 1600px;
+    height: 1600px;
+    clear: both;
+}
+
+.left {
+    background-color: #3ca5d5;
+    width: 20%;
+    height: 1600px;
+    float: left;
+}
+
+#left_nav {
+    /*border: 1px solid #cc4242;*/
+}
+
+#left_nav ul {
+    /*border: 1px solid #19d55e;*/
+    padding: 0px;
+}
+
+#left_nav li {
+    /*border: 1px solid #000;*/
+    background-color: #0c78c1;
+    height: 35px;
+    line-height: 35px;
+    /*overflow: hidden;*/
+    list-style: none;
+    /*margin: 0px 10px;*/
+}
+
+#left_nav li:nth-of-type(2n) {
+    background-color: #08338f;
+}
+
+#left_nav li:hover {
+    background-color: rgba(93, 57, 209, 0.4);
+}
+
+#left_nav ul li a {
+    display: block;
+    height: 35px;
+    width: 290px;
+}
+
+.right {
+    background-color: rgb(224, 224, 224);
+    width: 80%;
+    height: 1600px;
+    float: left;
+}
+
+.wenzhang1 {
+    margin: 20px 30px;
+    border-bottom: 1px dashed #a5a5a5;
+    /*实线solid, 点线dotted, 虚线dashed, 双线double*/
+    margin-bottom: 8px;
+    padding-bottom: 8px;
+}
+
+.wenzhang1 h5 {
+    font-size: 20px;
+    color: rgb(0, 90, 224);
+    border-bottom: 1px dashed #a5a5a5;
+    /*实线solid, 点线dotted, 虚线dashed, 双线double*/
+    margin-bottom: 8px;
+    padding-bottom: 8px;
+}
+
+.wenzhang1 h2 {
+    color: #333;
+    margin-bottom: 8px;
+}
+
+.wenzhang1 p {
+    text-indent: 2em;
+    color: #000;
+    font-family: "仿宋";
+    font-size: 24px;
+}
+
+.wenzhang1 h4 {
+    font-size: 23px;
+    color: #db0c39;
+}
+
+footer {
+    background-color: #4377e6;
+    width: 1600px;
+    height: 60px;
+    line-height: 60px;
+}
+
+.banquan {
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+}
